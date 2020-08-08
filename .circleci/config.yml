@@ -78,8 +78,6 @@ _custom:
             -
                 store_test_results:
                     <<: *step__store_test_results
-            -   codecov/upload:
-                    file: 'reports/machine/coverage/coverage.xml'
 
 jobs:
     php703__lint_and_test:
