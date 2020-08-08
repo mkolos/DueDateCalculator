@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Kolosh\DueDateCalculator\Tests\Unit;
 
 use DateTime;
@@ -65,6 +67,7 @@ class CalculatorTest extends TestCase
      * @param Exception $expectedException
      * @param DateTime $submitDate
      * @param int $workaroundTime
+     * @throws Exception
      *
      * @dataProvider casesCalculateDueDateFailed
      */

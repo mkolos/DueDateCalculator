@@ -3,7 +3,7 @@ This library helps you calculate the due date of an issue
 
 [![CircleCI](https://circleci.com/gh/mkolos/due-date-calculator.svg?style=svg)](https://circleci.com/gh/mkolos/due-date-calculator)
 
-## Exapmle for Due Date Calculator
+## Example for Due Date Calculator
 
 1. Clone the project: `git clone git@github.com:mkolos/due-date-calculator.git`
 1. Run `cd ./due-date-calculator`

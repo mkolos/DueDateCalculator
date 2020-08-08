@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1);
+declare(strict_types = 1);
 
 namespace Kolosh\DueDateCalculator;
 
@@ -71,6 +71,11 @@ class Calculator implements CalculatorInterface
         return $this;
     }
 
+    /**
+     * @param int $turnaroundTime
+     * @return $this
+     * @throws Exception
+     */
     protected function validateTurnaroundTime(int $turnaroundTime)
     {
         if ($turnaroundTime < 0) {
